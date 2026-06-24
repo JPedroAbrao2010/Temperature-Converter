@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Conversor de Temperatura</h1>
+        <p>Celsius para Fahrenheit/Kelvin</p>
+      </header>
+
+      <main>
+        <div class="form">
+          <input
+            id="celsius"
+            type="number"
+            id="celsius"
+            placeholder="Digite a temperatura em °C"
+          />
+
+          <button id="converter">➤</button>
+        </div>
+
+        <section class="saida">
+          <h2>Resultado:</h2>
+          <div class="saida">
+            <span>Fahrenheit</span>
+            <strong id="saida">60.8 °F</strong>
+          </div>
+
+          <div class="saida">
+            <span>Kelvin</span>
+            <strong id="saida2">289.15 K</strong>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
